@@ -1,0 +1,61 @@
+*{
+  font-family: 'Roboto','sans-serif';
+  font-size: 18px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 94, 109);
+} 
+#input{
+  padding: 10px;
+  background-color: aqua;
+  width: 228px;
+  border: 1px solid black;
+}
+#card{
+  top:50%;
+  left:50% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  height: 330px;
+  width: 250px;
+  background-color: black;
+  border: 5px solid black;
+  border-top: 5px solid black;
+  border-radius: 2%;
+}
+#keypad{
+  display: grid;
+  border-top: 2px solid black;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px,auto);
+}
+h3{
+  width: 228px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-bottom: 2px;
+  padding-bottom: 5px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+button{
+  background-color: black;
+  color: aqua;
+}
+button:hover{
+  background-color: aqua;
+  color: black;
+}
+h1{
+  color: white;
+  margin-top: 110px;
+  font-size: 100%;
+  padding: 7px 62px 10px 62px;
+  border: 5px solid black;
+  background-color: black;
+  border-radius: 2%;
+}
